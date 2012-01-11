@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CFCEB914BDD067005E0F2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFCEB814BDD067005E0F2E /* UIKit.framework */; };
+		47CFCEBB14BDD067005E0F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFCEBA14BDD067005E0F2E /* Foundation.framework */; };
+		47CFCEBD14BDD067005E0F2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFCEBC14BDD067005E0F2E /* CoreGraphics.framework */; };
+		47CFCEC314BDD067005E0F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47CFCEC114BDD067005E0F2E /* InfoPlist.strings */; };
+		47CFCEC514BDD067005E0F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CFCEC414BDD067005E0F2E /* main.m */; };
+		47CFCEC914BDD067005E0F2E /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CFCEC814BDD067005E0F2E /* SMAppDelegate.m */; };
+		47CFCECC14BDD067005E0F2E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CFCECA14BDD067005E0F2E /* MainStoryboard.storyboard */; };
+		47CFCECF14BDD067005E0F2E /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CFCECE14BDD067005E0F2E /* SMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47CFCEB414BDD067005E0F2E /* ArcLibraryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcLibraryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CFCEB814BDD067005E0F2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47CFCEBA14BDD067005E0F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47CFCEBC14BDD067005E0F2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47CFCEC014BDD067005E0F2E /* ArcLibraryExample-Info.plist */ = {isa = PBXFileReference; path = "ArcLibraryExample-Info.plist"; sourceTree = "<group>"; };
+		47CFCEC214BDD067005E0F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47CFCEC414BDD067005E0F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47CFCEC614BDD067005E0F2E /* ArcLibraryExample-Prefix.pch */ = {isa = PBXFileReference; path = "ArcLibraryExample-Prefix.pch"; sourceTree = "<group>"; };
+		47CFCEC714BDD067005E0F2E /* SMAppDelegate.h */ = {isa = PBXFileReference; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		47CFCEC814BDD067005E0F2E /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		47CFCECB14BDD067005E0F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		47CFCECD14BDD067005E0F2E /* SMViewController.h */ = {isa = PBXFileReference; path = SMViewController.h; sourceTree = "<group>"; };
+		47CFCECE14BDD067005E0F2E /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CFCEB114BDD067005E0F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CFCEB914BDD067005E0F2E /* UIKit.framework in Frameworks */,
+				47CFCEBB14BDD067005E0F2E /* Foundation.framework in Frameworks */,
+				47CFCEBD14BDD067005E0F2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CFCEA914BDD067005E0F2E = {
+			isa = PBXGroup;
+			children = (
+				47CFCEBE14BDD067005E0F2E /* ArcLibraryExample */,
+				47CFCEB714BDD067005E0F2E /* Frameworks */,
+				47CFCEB514BDD067005E0F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47CFCEB514BDD067005E0F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CFCEB414BDD067005E0F2E /* ArcLibraryExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CFCEB714BDD067005E0F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47CFCEB814BDD067005E0F2E /* UIKit.framework */,
+				47CFCEBA14BDD067005E0F2E /* Foundation.framework */,
+				47CFCEBC14BDD067005E0F2E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47CFCEBE14BDD067005E0F2E /* ArcLibraryExample */ = {
+			isa = PBXGroup;
+			children = (
+				47CFCEC714BDD067005E0F2E /* SMAppDelegate.h */,
+				47CFCEC814BDD067005E0F2E /* SMAppDelegate.m */,
+				47CFCECA14BDD067005E0F2E /* MainStoryboard.storyboard */,
+				47CFCECD14BDD067005E0F2E /* SMViewController.h */,
+				47CFCECE14BDD067005E0F2E /* SMViewController.m */,
+				47CFCEBF14BDD067005E0F2E /* Supporting Files */,
+			);
+			path = ArcLibraryExample;
+			sourceTree = "<group>";
+		};
+		47CFCEBF14BDD067005E0F2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47CFCEC014BDD067005E0F2E /* ArcLibraryExample-Info.plist */,
+				47CFCEC114BDD067005E0F2E /* InfoPlist.strings */,
+				47CFCEC414BDD067005E0F2E /* main.m */,
+				47CFCEC614BDD067005E0F2E /* ArcLibraryExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47CFCEB314BDD067005E0F2E /* ArcLibraryExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CFCED214BDD067005E0F2E /* Build configuration list for PBXNativeTarget "ArcLibraryExample" */;
+			buildPhases = (
+				47CFCEB014BDD067005E0F2E /* Sources */,
+				47CFCEB114BDD067005E0F2E /* Frameworks */,
+				47CFCEB214BDD067005E0F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcLibraryExample;
+			productName = ArcLibraryExample;
+			productReference = 47CFCEB414BDD067005E0F2E /* ArcLibraryExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CFCEAB14BDD067005E0F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Fast Wombat, LLC";
+			};
+			buildConfigurationList = 47CFCEAE14BDD067005E0F2E /* Build configuration list for PBXProject "ArcLibraryExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47CFCEA914BDD067005E0F2E;
+			productRefGroup = 47CFCEB514BDD067005E0F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CFCEB314BDD067005E0F2E /* ArcLibraryExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47CFCEB214BDD067005E0F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CFCEC314BDD067005E0F2E /* InfoPlist.strings in Resources */,
+				47CFCECC14BDD067005E0F2E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CFCEB014BDD067005E0F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CFCEC514BDD067005E0F2E /* main.m in Sources */,
+				47CFCEC914BDD067005E0F2E /* SMAppDelegate.m in Sources */,
+				47CFCECF14BDD067005E0F2E /* SMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47CFCEC114BDD067005E0F2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CFCEC214BDD067005E0F2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47CFCECA14BDD067005E0F2E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CFCECB14BDD067005E0F2E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47CFCED014BDD067005E0F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47CFCED114BDD067005E0F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47CFCED314BDD067005E0F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArcLibraryExample/ArcLibraryExample-Prefix.pch";
+				INFOPLIST_FILE = "ArcLibraryExample/ArcLibraryExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47CFCED414BDD067005E0F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArcLibraryExample/ArcLibraryExample-Prefix.pch";
+				INFOPLIST_FILE = "ArcLibraryExample/ArcLibraryExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CFCEAE14BDD067005E0F2E /* Build configuration list for PBXProject "ArcLibraryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CFCED014BDD067005E0F2E /* Debug */,
+				47CFCED114BDD067005E0F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CFCED214BDD067005E0F2E /* Build configuration list for PBXNativeTarget "ArcLibraryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CFCED314BDD067005E0F2E /* Debug */,
+				47CFCED414BDD067005E0F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CFCEAB14BDD067005E0F2E /* Project object */;
+}
