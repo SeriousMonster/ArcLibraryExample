@@ -7,6 +7,7 @@
 //
 
 #import "SMAppDelegate.h"
+#import "Facebook.h"
 
 @implementation SMAppDelegate
 
@@ -15,6 +16,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Facebook* facebook = [[Facebook alloc] initWithAppId:@"notreally" andDelegate:nil];
+    NSLog(@"Facebook is %@", facebook);
+    
     return YES;
 }
 							

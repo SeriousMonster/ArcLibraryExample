@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4749706014BE617F00262832 /* libArcFree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFCED914BDD0E3005E0F2E /* libArcFree.a */; };
 		47CFCEB914BDD067005E0F2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFCEB814BDD067005E0F2E /* UIKit.framework */; };
 		47CFCEBB14BDD067005E0F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFCEBA14BDD067005E0F2E /* Foundation.framework */; };
 		47CFCEBD14BDD067005E0F2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CFCEBC14BDD067005E0F2E /* CoreGraphics.framework */; };
@@ -41,7 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47CFCF1314BDD2DD005E0F2E /* PBXContainerItemProxy */ = {
+		4749705D14BE602D00262832 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 47CFCEAB14BDD067005E0F2E /* Project object */;
 			proxyType = 1;
@@ -96,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4749706014BE617F00262832 /* libArcFree.a in Frameworks */,
 				47CFCEB914BDD067005E0F2E /* UIKit.framework in Frameworks */,
 				47CFCEBB14BDD067005E0F2E /* Foundation.framework in Frameworks */,
 				47CFCEBD14BDD067005E0F2E /* CoreGraphics.framework in Frameworks */,
@@ -258,7 +260,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				47CFCF1414BDD2DD005E0F2E /* PBXTargetDependency */,
+				4749705E14BE602D00262832 /* PBXTargetDependency */,
 			);
 			name = ArcLibraryExample;
 			productName = ArcLibraryExample;
@@ -352,10 +354,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		47CFCF1414BDD2DD005E0F2E /* PBXTargetDependency */ = {
+		4749705E14BE602D00262832 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 47CFCED814BDD0E3005E0F2E /* ArcFree */;
-			targetProxy = 47CFCF1314BDD2DD005E0F2E /* PBXContainerItemProxy */;
+			targetProxy = 4749705D14BE602D00262832 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -491,6 +493,7 @@
 				47CFCED414BDD067005E0F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47CFCEE114BDD0E3005E0F2E /* Build configuration list for PBXNativeTarget "ArcFree" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +502,7 @@
 				47CFCEE314BDD0E3005E0F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
